@@ -55,8 +55,8 @@ function nearestNormalAspectRatio(width, height, side) {
      * https://gist.github.com/jonathantneal/d3a259ebeb46de7ab0de
      */
     var ratio = (width * 100) / (height * 100),
-        maxW = 3 in arguments ? arguments[2] : 10,
-        maxH = 4 in arguments ? arguments[3] : 10,
+        maxW = 3 in arguments ? arguments[2] : 16,
+        maxH = 4 in arguments ? arguments[3] : 16,
         ratiosW = new Array(maxW).join(',').split(','),
         ratiosH = new Array(maxH).join(',').split(','),
         ratiosT = {},
